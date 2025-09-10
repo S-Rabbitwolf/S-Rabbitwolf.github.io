@@ -10,9 +10,28 @@
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
+		.credit {
+			position: relative;
+			width: 50%;
+		}
+
 		#DogMage {
 			opacity: 1;
+			display: block;
 			border: solid black;
+			transition: .4s ease;
+			backface-visibility: hidden;
+		}
+
+		.credit:hover .hovertext{
+			opacity: 1;
+		}
+
+		.text {
+			background-color: #d966ff
+			color: aliceblue;
+			font-size: 14px;
+			padding: 16px 32px;
 		}
 	</style>
 
@@ -36,8 +55,13 @@
             For example. An image tag can also be anchored to a link, making the image be clickable to take you somewhere else. In this instance, it will take you to
             the location of the file itself on imgur.com. 
         </p>
-            <a href="https://i.imgur.com/iJBDdDO.png"><img class="hover" id="DogMage" src="SaiMage1.png" width="620" height="1200" alt="This art was created by Mencho as a commission. I designed the character myself! @MEN_cho7 on twitter."> </a>
-            <br>
+		<div class="credit">
+            <a href="https://i.imgur.com/iJBDdDO.png"><img class="goodboy" id="DogMage" src="SaiMage1.png" width="620" height="1200" alt="This art was created by Mencho as a commission. I designed the character myself! @MEN_cho7 on twitter."> </a>
+            <div class="hovertext">
+				<div class="text">This art was created by @MEN_cho7 on Twitter.</div>
+			</div>
+		</div>
+			<br>
             <caption>An example of an image being posted with the img tag, which will take you directly to the standalone image. Did you hover over it? You may learn something. </caption>
         </p>
 
