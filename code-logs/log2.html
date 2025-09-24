@@ -92,7 +92,21 @@
         <img class="goodboy" id="headshot" src="sai_headshot.png" height="400px" width="286px"> 
         (This art was created by @whitexterior on Twitter.)
         
-        While subtle, there is a layer of code here which differentiates the text area from the border of the image. The 
+        While subtle, there is a layer of code here which differentiates the text area from the border of the image. As both the image and text on the page are given relative properties, they 'respect' each others' boundaries.
+        <textarea>p, h1, h2, h3 {
+            white-space: pre-line;
+            position: relative;
+            text-align: center;
+        }
+
+        #headshot {
+            opacity: 1;
+            border: solid 1px;
+            border-color: black;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }</textarea>
     </p>
 
 </body>
