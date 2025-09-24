@@ -92,7 +92,7 @@
         <img class="goodboy" id="headshot" src="sai_headshot.png" height="400px" width="286px"> 
         (This art was created by @whitexterior on Twitter.)
         
-        While subtle, there is a layer of code here which differentiates the text area from the border of the image. As both the image and text on the page are given relative properties, they 'respect' each others' boundaries.
+        While subtle, there is a layer of code here which differentiates the text area from the border of the image. 
         <textarea>p, h1, h2, h3 {
             white-space: pre-line;
             position: relative;
@@ -107,6 +107,11 @@
             margin-top: 10px;
             margin-bottom: 10px;
         }</textarea>
+        As both the image and text on the page are given relative properties, they 'respect' each others' boundaries. There is a 10 pixel margin on both the top and bottom of the image, to afford it a little more space.
+
+        This concept is a well-defined property despite its tie-in to a relative position. You do not have to use defined examples like px. You could instead elect to tie the margins to the height of the current font (ex) or relative to the parent element (%).
+
+        The reasons for doing this are entirely dependent on the context you are tying elements to. 
     </p>
 
 </body>
