@@ -17,8 +17,11 @@
 
         #headshot {
             border: 1px;
-            border-color:darkgoldenrod;
+            border-color: darkgoldenrod;
             position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 0 0 10px;
         }
 	</style>
 
@@ -74,8 +77,10 @@
         Say you want to have an image cropped onto your website, but the text hugs it far too closely. If you were to only use absolute values for this purpose, you would be able to have the image put onto your site easily, but it would be needlessly difficult to adjust the text relative to its position.
 
         This is why relative measurements are important.
-
         <img class="goodboy" id="headshot" src="sai_headshot.png" height="400px" width="286px">
+        While subtle, there is a layer of code where which differentiates the text area from the border of the image.
+
+
     </p>
 
 </body>
