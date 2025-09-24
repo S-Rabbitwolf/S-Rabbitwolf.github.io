@@ -12,6 +12,13 @@
 	<style>
 		p {
             white-space: pre-line;
+            position: relative;
+        }
+
+        #headshot {
+            border: 1px;
+            border-color:darkgoldenrod;
+            position: absolute;
         }
 	</style>
 
@@ -27,6 +34,7 @@
 	<h1 id="Title">Measuring Units in CSS</h1>
     <hr>
     <p class="demonstration">In web development, it's important to utilize the various tools that CSS has to offer in regards to precise units of measurement.
+
         For example, it is entirely possible to change the font size of a given class or asset.
 
         For example:
@@ -51,6 +59,7 @@
         </textarea>
 
         This layer of CSS means that within the class of 'big', two things are accomplished:
+
         The absolute measurement of '20px' (20 pixels), with the line-height being assigned '2em' relative to the font-size element. This means that the height of the line of anything in the .big classification will be 2 times the size of the current font.
 
 
@@ -62,7 +71,11 @@
 
         Take the measurement of px and pt for example. A pixel is 1/96th of 1 inch, and a point is 1/72nd of 1 inch. There are various reasons why you may want to use px over pt and vice versa, especially if the content of your page is not specifically tied to text.
 
-        Say you want to have an image cropped onto your website, but the text hugs it far too closely. If you were to only use absolute values for this purpose, you would
+        Say you want to have an image cropped onto your website, but the text hugs it far too closely. If you were to only use absolute values for this purpose, you would be able to have the image put onto your site easily, but it would be needlessly difficult to adjust the text relative to its position.
+
+        This is why relative measurements are important.
+
+        <img class="goodboy" id="headshot" src="sai_headshot.png" height="400px" width="286px">
     </p>
 
 </body>
