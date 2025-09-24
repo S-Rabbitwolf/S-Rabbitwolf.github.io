@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Title</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		.presentation {
+            white-space: pre-line;
+        }
+	</style>
+
+	<!-- external and internal JavaScript -->
+	<script src="scripts.js" defer></script>
+	<script>
+		// in-page JavaScript here
+	</script>
+
+</head>
+<body>
+
+	<h1 id="Title">Measuring Units in CSS</h1>
+    <hr>
+    <p class="demonstration">In web development, it's important to utilize the various tools that CSS has to offer in regards to precise units of measurement.
+        For example, it is entirely possible to change the font size of a given class or asset.
+
+        For example:
+
+        <textarea id="example1">p {
+            font-size: 15px;
+        }
+        </textarea>
+        
+        This CSS code utilizes absolute context, which would make any text with the html string of 'p' be sized in 15 pixels. The same can be said for other units of absolute measurement, such as millimeters (mm), points (pt), and inches (in).
+
+        However, in order to differentiate between different assets, it becomes necessary to understand the difference between absolute and relative properties of measurement.
+
+        Relative, in the context of code, means the object will be tied to a different object in the code, relative to that object's position, size, placement, etc.
+
+        For example:
+
+        <textarea id="example2"> .big {
+            font-size: 20px;
+            line-height: 2em;
+        }
+        </textarea>
+
+        This layer of CSS means that within the class of 'big', two things are accomplished:
+        The absolute measurement of '20px' (20 pixels), with the line-height being assigned '2em' relative to the font-size element. This means that the height of the line of anything in the .big classification will be 2 times the size of the current font.
+
+
+    </p>
+    <h2 id=explanation>Why The Difference Is Important</h2>
+    <hr>
+    <p class="demonstration">Absolute values in and of themselves are easy to understand the purpose of. By assigning defined (absolute) values to certain assets, it becomes much easier to structure your website's content in digestible ways.
+        With this knowledge, you can think of the purpose of relative measurement to be supplying context to these measurements. This is both for readability and for structural integrity.
+
+        Take the measurement of px and pt for example. A pixel is 1/96th of 1 inch, and a point is 1/72nd of 1 inch. There are various reasons why you may want to use px over pt and vice versa, especially if the content of your page is not specifically tied to text.
+
+        Say you want to have an image cropped onto your website, but the text hugs it far too closely. If you were to only use absolute values for this purpose, you would
+    </p>
+
+</body>
+</html>
