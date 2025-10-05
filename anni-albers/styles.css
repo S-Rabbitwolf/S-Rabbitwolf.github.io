@@ -20,8 +20,15 @@ p {
 }
 
 p, h1, h2 {
+			
 			white-space: pre-line;
-			position: relative;
+	margin: 10px;
+}
+
+section {
+	margin: 1rem;
+	line-height: 2rem;
+	margin-top: auto
 }
 
 .container {
@@ -34,31 +41,54 @@ p, h1, h2 {
 
 .callout {
     display: grid;
-	grid-template-columns: auto;
+	grid-template-rows: min-content;
 	padding: 10px;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     font-style: italic;
-    float: right;
     background-color:rgb(218, 220, 221);
-	padding: 10px;
-	font-size: 1.4rem;
+	padding: 40px;
+	font-size: 2rem;
 	text-align: justify;
+	max-width: 500px;
+	border: solid black
 }
 
 #callout1 {
-    width: 30%;
-    float: right;
+	float: right;
+}
+
+#callout2 {
+	float: left;
+}
+
+#callout3 {
+	float: left;
+}
+
+#callout1,
+#callout2,
+#callout3,
+#callout4 {
+text-align: center;
+
+    
 }
 
 #row1 p {
-    margin-left: calc(100% * 2 / 6);
+    margin-right: calc(100% * 1 / 20);
 }
 
 
 #row3 p {
-    margin-left: calc(100% * 1 / 6);
+    margin-right: calc(100% * 1 / 20);
+	margin-bottom: 20px;
 }
+
+#row4 p {
+	margin-right: calc(100% * 1 / 10);
+}
+
 #row5 p {
-    margin-bottom: calc(80% * 1 / 9);
+    margin-bottom: calc(100% * 2 / 13);
     margin-right: calc(80% * 2 / 13);
 }
