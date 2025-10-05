@@ -116,28 +116,27 @@ text-align: center;
 
 #secondLayout main {
     display: grid;
-    grid-template-columns: repeat(3, calc(100% / 6) );
-    grid-template-rows: 100vh (4, auto);
+    grid-template-rows: 100vh (5, auto);
     gap: 10px;
     grid-template-areas:
     'title title title'
     'p1 c1 p2'
     'p3 c2 p4'
     'p5 c3 p6'
-    'c4 c4 c4'
+    '. c4 .'
 }
 
-#secondLayout #entitledrow { grid-area: title; }
-#secondlayout #para1 { grid-area: p1; }
-#secondlayout #para2 { grid-area: p2; }
-#secondlayout #para3 { grid-area: p3; }
-#secondlayout #para4 { grid-area: p4; }
-#secondlayout #para5 { grid-area: p5; }
-#secondlayout #para6 { grid-area: p6; }
-#secondlayout #callout1 { grid-area: c1; }
-#secondlayout #callout2 { grid-area: c2; }
-#secondlayout #callout3 { grid-area: c3; }
-#secondlayout #callout4 { grid-area: c4; }
+#secondLayout #entitledRow { grid-area: title; }
+#secondLayout #para1 { grid-area: p1; }
+#secondLayout #para2 { grid-area: p2; }
+#secondLayout #para3 { grid-area: p3; }
+#secondLayout #para4 { grid-area: p4; }
+#secondLayout #para5 { grid-area: p5; }
+#secondLayout #para6 { grid-area: p6; }
+#secondLayout #callout1 { grid-area: c1; }
+#secondLayout #callout2 { grid-area: c2; }
+#secondLayout #callout3 { grid-area: c3; }
+#secondLayout #callout4 { grid-area: c4; }
 
 #secondLayout p {
     width: 100%;
