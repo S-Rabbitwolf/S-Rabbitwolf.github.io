@@ -27,16 +27,7 @@ p, h1, h2 {
 			
 	margin: 10px;
 }
-
-section {
-	margin: 1rem;
-	line-height: 2rem;
-	margin-top: auto
-}
-
-
 		
-
 .callout {
     display: grid;
 	grid-template-rows: min-content;
@@ -128,16 +119,16 @@ text-align: center;
 }
 
 #secondLayout #entitledrow { grid-area: title; }
-#secondlayout #para1 { grid-area: p1; }
-#secondlayout #para2 { grid-area: p2; }
-#secondlayout #para3 { grid-area: p3; }
-#secondlayout #para4 { grid-area: p4; }
-#secondlayout #para5 { grid-area: p5; }
-#secondlayout #para6 { grid-area: p6; }
-#secondlayout #callout1 { grid-area: c1; }
-#secondlayout #callout2 { grid-area: c2; }
-#secondlayout #callout3 { grid-area: c3; }
-#secondlayout #callout4 { grid-area: c4; }
+#secondLayout #para1 { grid-area: p1; }
+#secondLayout #para2 { grid-area: p2; }
+#secondLayout #para3 { grid-area: p3; }
+#secondLayout #para4 { grid-area: p4; }
+#secondLayout #para5 { grid-area: p5; }
+#secondLayout #para6 { grid-area: p6; }
+#secondLayout #callout1 { grid-area: c1; }
+#secondLayout #callout2 { grid-area: c2; }
+#secondLayout #callout3 { grid-area: c3; }
+#secondLayout #callout4 { grid-area: c4; }
 
 #secondLayout p {
     width: 100%;
