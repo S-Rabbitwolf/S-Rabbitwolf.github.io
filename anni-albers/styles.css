@@ -65,6 +65,10 @@ section {
 	float: left;
 }
 
+#callout4 {
+    float: right;
+}
+
 #callout1,
 #callout2,
 #callout3,
