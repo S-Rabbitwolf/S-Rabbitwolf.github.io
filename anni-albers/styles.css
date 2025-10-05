@@ -18,3 +18,9 @@ p {
     font-size: 1.1rem;
     line-height: 2.2rem;
 }
+
+.callout {
+    font-size: 1.6rem;
+    line-height: 0.8rem;
+    font-style: italic;
+}
