@@ -126,17 +126,17 @@ text-align: center;
     '. c4 .'
 }
 
-#secondLayout #entitledRow { grid-area: title; }
-#secondLayout #para1 { grid-area: p1; }
-#secondLayout #para2 { grid-area: p2; }
-#secondLayout #para3 { grid-area: p3; }
-#secondLayout #para4 { grid-area: p4; }
-#secondLayout #para5 { grid-area: p5; }
-#secondLayout #para6 { grid-area: p6; }
-#secondLayout #callout1 { grid-area: c1; }
-#secondLayout #callout2 { grid-area: c2; }
-#secondLayout #callout3 { grid-area: c3; }
-#secondLayout #callout4 { grid-area: c4; }
+#secondLayout #entitledRow { grid-area: title }
+#secondLayout #para1 { grid-area: p1 }
+#secondLayout #para2 { grid-area: p2 }
+#secondLayout #para3 { grid-area: p3 }
+#secondLayout #para4 { grid-area: p4 }
+#secondLayout #para5 { grid-area: p5 }
+#secondLayout #para6 { grid-area: p6 }
+#secondLayout #callout1 { grid-area: c1 }
+#secondLayout #callout2 { grid-area: c2 }
+#secondLayout #callout3 { grid-area: c3 }
+#secondLayout #callout4 { grid-area: c4 }
 
 #secondLayout p {
     width: 100%;
