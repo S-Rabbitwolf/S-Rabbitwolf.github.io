@@ -28,3 +28,16 @@ p {
 #row1 p {
     margin-left: calc(100% * 2 / 6);
 }
+
+
+#row3 p {
+    margin-left: calc(100% * 1 / 6);
+}
+#row5 p {
+    margin-bottom: calc(80% * 1 / 9);
+    margin-right: calc(80% * 2 / 13);
+}
+
+#callout 1{
+    
+}
