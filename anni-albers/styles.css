@@ -14,22 +14,22 @@ h2 {
     font-style: italic;
 }
 
+p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
 
-
-h1, h2 {
+p, h1, h2 {
 			
 			white-space: pre-line;
 	margin: 10px;
 }
 
-p {
-    font-size: 1.2rem;
+section {
 	margin: 1rem;
 	line-height: 2rem;
-	width: 50%;
+	margin-top: auto
 }
-
-
 
 
 		
@@ -79,7 +79,7 @@ text-align: center;
 }
 
 #row2 p {
-    margin-right: 20px;;
+    margin-right: auto;
 }
 
 #row3 p {
@@ -109,35 +109,5 @@ text-align: center;
 /* CSS for index1                              */
 /***********************************************/
 
-/* Time to inherit some baselines!*/
+/* Time to inherit some baselines!*
 
-#secondLayout main {
-    display: grid;
-    grid-template-columns: repeat(6, calc(100% / 6) );
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas:
-         'title title title title title title'
-         'p1 p1 . . c1 c1'
-         'p2 p2 . c2 c2 .'
-         'p3 p3 . . . .'
-         'c3 c3 . p4 p4 .'
-         '. . p5 p5 c4 c4'
-         '. . p6 p6 . .'
-
-}
-
-#secondLayout #entitledRow { grid-area: title; }
-#secondLayout #para1 { grid-area: p1;}
-#secondLayout #para2 { grid-area: p2;}
-#secondLayout #para3 { grid-area: p3;}
-#secondLayout #para4 { grid-area: p4;}
-#secondLayout #para5 { grid-area: p5;}
-#secondLayout #para6 { grid-area: p6;}
-#secondLayout #callout1 {grid-area: c1}
-#secondLayout #callout2 {grid-area: c2}
-#secondLayout #callout3 {grid-area: c3}
-#secondLayout #callout4 {grid-area: c4}
-
-#secondLayout p {
-    width: 100%;
-}
