@@ -45,9 +45,9 @@ p, h1, h2 {
 	text-align: justify;
 }
 
-#callout1 p {
+#callout1 {
     width: 30%;
-    float: left;
+    float: right;
 }
 
 #row1 p {
