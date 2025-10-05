@@ -4,3 +4,8 @@ main {
     margin: 0 auto;
 
 }
+
+p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
