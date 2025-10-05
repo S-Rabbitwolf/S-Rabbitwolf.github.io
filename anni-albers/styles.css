@@ -108,7 +108,7 @@ text-align: center;
 #secondLayout main {
     display: grid;
     grid-template-columns: repeat(3, calc(100% / 6) );
-    grid-template-rows: 100vh (5, auto);
+    grid-template-rows: repeat(5, auto);
     gap: 10px;
     grid-template-areas:
     'title title title'
@@ -132,5 +132,9 @@ text-align: center;
 
 #secondLayout p {
     width: 100%;
+}
+
+#secondLayout #callout1, #callout2, #callout3, #callout4 {
+    float: none
 }
 
