@@ -116,7 +116,7 @@ text-align: center;
 
 #secondLayout main {
     display: grid;
-    grid-template-rows: 100vh (5, auto);
+    grid-template-rows: 100vh repeat(5, auto);
     gap: 10px;
     grid-template-areas:
     'title title title'
