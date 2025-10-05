@@ -19,6 +19,27 @@ p {
     line-height: 2.2rem;
 }
 
+p, h1, h2 {
+			white-space: pre-line;
+			position: relative;
+}
+
+.container {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			background-color: transparent;
+			padding: 10px;
+			
+		}
+
+.container > div {
+			background-color:rgb(218, 220, 221);
+			padding: 10px;
+			font-size: 1.4rem;
+			text-align: justify;
+		
+
+}
 .callout {
 
     line-height: 1.2rem;
