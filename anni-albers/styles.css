@@ -100,7 +100,11 @@ text-align: center;
     margin-right: calc(80% * 2 / 13);
 }
 
-
+h3 {
+    font-style: italic;
+    font-size: 0.8rem;
+    white-space: pre-line
+}
 
 
 
