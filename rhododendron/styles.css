@@ -25,4 +25,43 @@
         position: relative;
     }
 
-    
+    .transparentwrap {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .transparentwrap img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: opacity 0.8s ease;
+    }
+
+    .BehindText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        color: #333;
+        opacity: 0;
+        transition: opacity 0.8s ease;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    /* Hover to fade image to 10% opacity or so */
+
+    .transparentwrap:hover img {
+        opacity: 0.1;
+    }
+    .image-wrapper:hover .text-overlay {
+        opacity: 1;
+    }
