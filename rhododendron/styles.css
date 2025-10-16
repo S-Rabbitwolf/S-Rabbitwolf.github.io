@@ -16,7 +16,7 @@
     p {
         white-space: pre-line;
     }
-    
+
     header {
         padding: 20px 20px;
         font-size: 1.5rem;
@@ -93,6 +93,7 @@
     .transparentwrap:hover img {
         opacity: 0.1;
     }
+    
     .transparentwrap:hover .BehindText {
         opacity: 1;
     }
