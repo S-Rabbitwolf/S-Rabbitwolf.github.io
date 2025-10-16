@@ -63,6 +63,7 @@
         transition: opacity 0.8s ease;
         padding: 10px;
         text-align: center;
+        white-space: pre-line;
 
     }
 
