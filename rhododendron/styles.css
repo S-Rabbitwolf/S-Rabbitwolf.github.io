@@ -57,11 +57,9 @@
 
     }
 
-    /* Hover to fade image to 10% opacity or so */
-
     .transparentwrap:hover img {
         opacity: 0.1;
     }
-    .image-wrapper:hover .text-overlay {
+    .transparentwrap:hover .BehindText {
         opacity: 1;
     }
