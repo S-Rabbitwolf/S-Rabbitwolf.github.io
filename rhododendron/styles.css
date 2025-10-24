@@ -27,8 +27,9 @@
 
 
     .container {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
         flex-wrap: wrap;
         gap: 20px;
         padding: 20px;
