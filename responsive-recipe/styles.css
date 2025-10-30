@@ -55,3 +55,35 @@ main { grid-area: main; }
     height: 100%;
     object-fit: cover;
 }
+
+
+/* for the left side of the page text orientation*/
+
+main {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    main { padding: 1.25rem 1.25rem 1.5rem; }
+}
+
+.preparation, .author, footer {
+    margin-block: 1rem;
+}
+
+.preparation h2, .author h2 { 
+    margin: 0 0 0.5rem 0;
+}
+
+.preparation ul, .preparation ol {
+    margin: 0.5rem 0 0 1.25rem;
+}
+
+footer h4 {
+    margin: 0.5rem 0 0 0;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
