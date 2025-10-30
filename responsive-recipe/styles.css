@@ -161,12 +161,6 @@ footer h4 {
 
 @media (max-width: 480px) {
     .sidebar-divider {
-        position: fixed;
-        top: 0;
-        left: 5px;
-        width: 2px;
-        height: 100vh;
-        background-color: #16181b;
-        z-index: 1;
+        left: 30px;
     }
 }
