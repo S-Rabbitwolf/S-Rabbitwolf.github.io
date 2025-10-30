@@ -9,6 +9,7 @@ body {
         "main";
     gap: 1rem;
     padding: 1rem;
+    margin-left: 12px;
 }
 
 /* for larger screens*/
@@ -146,4 +147,14 @@ footer h4 {
         font-size: 0.7rem;
     }
 
+}
+
+.sidebar-divider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100vh;
+    background-color: #e5e7eb;
+    z-index: 1;
 }
