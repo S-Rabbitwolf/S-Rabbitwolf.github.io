@@ -153,8 +153,8 @@ footer h4 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 2px;
+    width: 4px;
     height: 100vh;
-    background-color: #e5e7eb;
+    background-color: #16181b;
     z-index: 1;
 }
