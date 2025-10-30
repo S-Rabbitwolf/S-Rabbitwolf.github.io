@@ -121,13 +121,13 @@ footer h4 {
 
 .author-info h3 {
     margin: 0;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     color: #111;
 }
 
 .author-info p {
     margin: 0;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     color: #555;
 }
 
@@ -157,4 +157,16 @@ footer h4 {
     height: 100vh;
     background-color: #16181b;
     z-index: 1;
+}
+
+@media (max-width: 480px) {
+    .sidebar-divider {
+        position: fixed;
+        top: 0;
+        left: 5px;
+        width: 2px;
+        height: 100vh;
+        background-color: #16181b;
+        z-index: 1;
+    }
 }
