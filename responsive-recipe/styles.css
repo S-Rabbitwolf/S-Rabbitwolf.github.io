@@ -152,7 +152,7 @@ footer h4 {
 .sidebar-divider {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 60px;
     width: 4px;
     height: 100vh;
     background-color: #16181b;
