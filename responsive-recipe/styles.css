@@ -160,7 +160,20 @@ footer h4 {
 }
 
 @media (max-width: 480px) {
+    body {
+        display: block;
+    }
     .sidebar-divider {
-        left: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #16181b;
+        z-index: 10;
+    }
+
+    .food-image {
+        margin-top: 12px;
     }
 }
