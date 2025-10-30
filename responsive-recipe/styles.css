@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fafafa;
+    color: #222;
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "title"
+        "intro"
+        "content"
+        "summary";
+
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Grid areas here */
+
+header {
+    grid-area: header;
+}
+
+#tocino {
+    grid-area: title;
+}
+
+.preparation {
+    grid-area: intro;
+}
+
+#ingredients, #instructions {
+    grid-area: content;
+}
+
+.author, #authornotes {
+    grid-area: summary;
+}
+
+body {
+    white-space: pre-line;
+}
