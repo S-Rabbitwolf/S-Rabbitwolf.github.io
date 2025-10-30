@@ -159,7 +159,7 @@ footer h4 {
     z-index: 1;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     body {
         display: block;
     }
