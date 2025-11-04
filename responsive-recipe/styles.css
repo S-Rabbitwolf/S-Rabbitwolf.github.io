@@ -10,7 +10,9 @@ body {
     gap: 1rem;
     padding: 1rem;
     margin-left: 12px;
+    white-space: pre-line;
 }
+
 
 /* for larger screens*/
 
