@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // when clicked, add class to the body and header called "darkMode"
         document.body.classList.toggle("darkMode");
-        document.header.classList.toggle("darkMode");
 
         // toggling dark mode for boxes as well
         document.querySelectorAll('.container, .image-box, .description, .BehindText').forEach(function (el) {
