@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.classList.toggle("darkMode");
 
         // toggling dark mode for boxes as well
-        document.querySelectorAll('.container, .image-box, .description').forEach(function (el) {
+        document.querySelectorAll('.container, .image-box, .description, .BehindText').forEach(function (el) {
             el.classList.toggle("darkMode");
         })
         
