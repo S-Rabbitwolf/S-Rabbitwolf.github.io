@@ -111,6 +111,17 @@ body {
         color:firebrick;
     }
 
+    .container.darkMode {
+        background-color: #1f1f1f;
+        color: seashell;
+
+    }
+
+    .behindText.darkMode {
+        background-color: #1f1f1f;
+        color: seashell;
+    }
+
     
 
 
