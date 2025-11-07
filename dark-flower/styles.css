@@ -107,7 +107,7 @@ body {
         color: seashell;
     }
 
-    body.darkMode {
+    header.darkMode {
         color:firebrick;
     }
 
@@ -122,6 +122,10 @@ body {
         color: seashell;
     }
 
+    .description.darkMode {
+        background-color: #1f1f1f;
+        color: seashell;
+    }
     
 
 
