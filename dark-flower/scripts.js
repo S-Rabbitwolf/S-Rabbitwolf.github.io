@@ -9,9 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // when clicked, add class to the body called "darkMode"
         document.body.classList.toggle("darkMode");
-        document.div.classList.toggle("darkMode");
-        document.image-box.classList.toggle("darkMode");
-        document.description.classList.toggle("darkMode");
+
+        // toggling dark mode for boxes as well
+        document.querySelectorAll('.container, .image-box, .description').forEach(function (el) {
+            el.classList.toggle("darkMode");
+        })
         
     });
 

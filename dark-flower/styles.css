@@ -111,7 +111,7 @@ body {
         color:firebrick;
     }
 
-    div.darkMode {
+    .container.darkMode {
         background: #1f1f1f;
         color: seashell;
 
