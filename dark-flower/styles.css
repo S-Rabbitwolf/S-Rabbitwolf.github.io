@@ -108,7 +108,8 @@ body {
     }
 
     header.darkMode {
-        color:firebrick;
+        background: #1f1f1f;
+        color:seashell;
     }
 
     .container.darkMode {
