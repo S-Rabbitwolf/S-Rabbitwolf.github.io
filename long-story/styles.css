@@ -22,6 +22,7 @@ section {
 .textinside {
     position: absolute;
     top: 30vh;
+    right: 3vh;
     width: 50vw;
 
 }
