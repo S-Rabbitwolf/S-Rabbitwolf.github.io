@@ -53,6 +53,19 @@ h2 {
 
 }
 
-#storytime5 {
-    align-items: center;
+
+.textinside2 p {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+    max-width: 100%;
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: rgba(31, 31, 31, 0.8); /* Making the background of the text only slightly transparent */
+    border-color: aliceblue;
+    align-content: center;
+    
+
 }
