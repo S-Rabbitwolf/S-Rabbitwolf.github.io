@@ -11,3 +11,27 @@ body {
     background-position: center top;
 }
 
+section {
+    position: relative;
+    height: 100vh;
+}
+
+.textinside {
+    position: absolute;
+    top: 30vh;
+    right: 3vw;
+    width: 50vw;
+
+}
+
+.textinside p {
+    color: whitesmoke;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+    max-width: 100%;
+    width: fit-content;
+    box-sizing: border-box;
+    
+}
