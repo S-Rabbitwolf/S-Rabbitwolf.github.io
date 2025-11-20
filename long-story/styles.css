@@ -37,7 +37,7 @@ section {
     width: fit-content;
     box-sizing: border-box;
     background-color: rgba(31, 31, 31, 0.8); /* Making the background of the text only slightly transparent */
-    border-color: aliceblue;
+    border: solid aliceblue;
     
 
 }
