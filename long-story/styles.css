@@ -36,7 +36,9 @@ section {
     max-width: 100%;
     width: fit-content;
     box-sizing: border-box;
-    background-color: #1f1f1f;
+    background-color: rgba(31, 31, 31, 0.8); /* Making the background of the text only slightly transparent */
+    border-color: aliceblue;
+    
 
 }
 
