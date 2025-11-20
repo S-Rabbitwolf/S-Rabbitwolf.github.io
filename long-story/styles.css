@@ -43,6 +43,7 @@ section {
 }
 
 #title {
-    align-content: top center;
+    text-align: center;
+    font-size: 3rem;
 
 }
