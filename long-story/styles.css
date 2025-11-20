@@ -33,5 +33,6 @@ section {
     max-width: 100%;
     width: fit-content;
     box-sizing: border-box;
-    
+    background-color: #1f1f1f;
+
 }
