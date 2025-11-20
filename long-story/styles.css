@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0f0f0f;
+    color:whitesmoke;
+    height: 500vh; 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
