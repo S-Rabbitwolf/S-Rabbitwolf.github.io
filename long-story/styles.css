@@ -42,8 +42,17 @@ section {
 
 }
 
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 #title {
     text-align: center;
     font-size: 3rem;
 
+}
+
+#storytime5 {
+    align-items: center;
 }
