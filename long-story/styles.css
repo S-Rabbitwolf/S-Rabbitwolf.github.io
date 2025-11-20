@@ -1,4 +1,5 @@
 body {
+   
     margin: 0;
     padding: 0;
     height: 100%;
@@ -10,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("Hindenburg_disasterjpg");
-
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%); /* Background fades to black as you scroll down */
 
 }
 
