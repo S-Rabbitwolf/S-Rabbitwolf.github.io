@@ -36,11 +36,6 @@ section {
 
 }
 
-@scroll-timeline fadein-timeline {
-    source: auto;
-    orientation: block;
-}
-
 .textinside p {
     color: whitesmoke;
     font-size: 1.3rem;
@@ -52,22 +47,8 @@ section {
     box-sizing: border-box;
     background-color: rgba(31, 31, 31, 0.8); /* Making the background of the text only slightly transparent */
     border: solid aliceblue;
-    
-    /* starts hidden */
-    opacity: 0;
-
-    /* fades in with scrolling via animation */
-    animation: fadein 1s linear both;
-    animation-timeline: fadein-timeline;
-    animation-range: entry 0% cover 30%;
-
 }
 
-/* fading in keys. this is just a test implementation from a resource I found so if it doesn't work I'll just cut my losses */
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
 h2 {
     text-align: center;
@@ -82,11 +63,6 @@ h2 {
 
 }
 
-@scroll-timeline fadein-timeline {
-    source: auto;
-    orientation: block;
-}
-
 .textinside2 p {
     color: whitesmoke;
     font-size: 1.3rem;
@@ -99,19 +75,4 @@ h2 {
     background-color: rgba(31, 31, 31, 0.8); /* Making the background of the text only slightly transparent */
     border: solid aliceblue;
     align-content: center;
-     /* starts hidden */
-    opacity: 0;
-
-    /* fades in with scrolling via animation */
-    animation: fadein 1s linear both;
-    animation-timeline: fadein-timeline;
-    animation-range: entry 0% cover 30%;
-
 }
-
-/* fading in keys. this is just a test implementation from a resource I found so if it doesn't work I'll just cut my losses */
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
