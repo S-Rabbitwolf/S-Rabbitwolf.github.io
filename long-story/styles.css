@@ -16,10 +16,12 @@ body {
 
 #titleheader {
     width: fit-content;
+    margin: 0 auto;
     box-sizing: border-box;
     background-color: rgba(31, 31, 31, 0.8);
     border: solid aliceblue;
     align-content: center;
+    padding: 1rem;
 }
 
 .cornerfoot {
