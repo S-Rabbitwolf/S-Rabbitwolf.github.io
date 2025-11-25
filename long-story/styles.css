@@ -19,6 +19,7 @@ body {
     box-sizing: border-box;
     background-color: rgba(31, 31, 31, 0.8);
     border: solid aliceblue;
+    align-content: center;
 }
 
 .cornerfoot {
