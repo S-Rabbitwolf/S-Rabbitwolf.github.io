@@ -16,6 +16,12 @@ p {
     white-space: pre-line;
 }
 
+h1 {
+text-align: center;
+border: solid black;
+
+}
+
 /* for larger screens*/
 
 @media (min-width: 768px) {
