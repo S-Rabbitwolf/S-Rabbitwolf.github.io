@@ -252,6 +252,7 @@ nav>ul>li {
     position: relative;
     background-color: var(--nav-bkgd-color);
     display: block;
+    float: left;
     margin: 0 0.5rem;
 }
 
