@@ -19,6 +19,7 @@ p {
 h1 {
 text-align: center;
 border: solid black;
+background-color: #555;
 
 }
 
@@ -251,7 +252,7 @@ nav>ul>li {
     position: relative;
     background-color: var(--nav-bkgd-color);
     display: block;
-    margin: 1rem;
+    margin: 0 0.5rem;
 }
 
 nav>ul>li>a {
