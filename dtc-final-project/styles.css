@@ -102,7 +102,7 @@ body {
 
 .hook-image {
     flex: 0 0 40%;
-    padding: 3rem 1rem;
+    padding: 2rem;
     align-items: center;
     background: rgba(12, 12, 12, 0.2);
     transition: transform 0.2s ease, opacity 0.2s ease;
@@ -110,8 +110,8 @@ body {
 }
 
 .hook-text {
-    flex: 1 1 40%;
-    padding: 3rem 1rem;
+    flex: 0 0 40%;
+    padding: 2rem;
     border: 2px solid rgba(12, 12, 12, 0.6);
     font-size: 0.95rem; 
     line-height: 1.6;
