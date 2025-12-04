@@ -148,7 +148,9 @@ body {
 }
 
 .character-attributes {
+    display: block;
     padding: 1.75rem;
+    width: 100%;
     min-height: 240px;
     font-size: 0.95rem;
     line-height: 1.6;
