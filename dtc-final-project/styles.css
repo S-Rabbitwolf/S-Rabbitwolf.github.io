@@ -9,6 +9,10 @@ body {
     opacity: 0.9
 }
 
+.page2 {
+    background-image: url(background\ 3.png);
+}
+
 .page-wrap {
     max-width: 1400px;
     margin: 0 auto;
