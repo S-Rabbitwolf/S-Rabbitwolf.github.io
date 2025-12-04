@@ -79,9 +79,10 @@ body {
 .hook-image {
     flex: 0 0 40%;
     padding: 3rem 1rem;
-    align-items: left;
+    align-items: center;
     background: rgba(12, 12, 12, 0.2);
     transition: transform 0.2s ease, opacity 0.2s ease;
+    color:aliceblue;
 }
 
 .hook-text {
