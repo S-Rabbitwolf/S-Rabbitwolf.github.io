@@ -10,10 +10,10 @@ body {
 }
 
 .page2 {
-    background-image: url(background\ 3.png);
+    background-image: url(background\ 3a.png);
     background-repeat: no-repeat;
     background-position: center;
-    background: rgba(6, 6, 6, .9)
+    
 }
 
 .page-wrap {
@@ -29,6 +29,7 @@ body {
     z-index: 100;
     background: rgba(20, 6, 20, 0.6);
     color: #cec6cc;
+    margin-bottom: 1rem;
 }
 
 .logo {
