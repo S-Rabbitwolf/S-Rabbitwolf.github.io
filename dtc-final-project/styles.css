@@ -41,6 +41,9 @@ body {
     gap: 7rem;
     font-size: 1.4rem;
     color: #cec6cc;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .nav-links a {
