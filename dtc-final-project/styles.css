@@ -19,7 +19,8 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(20, 6, 20, 0.6)
+    background: rgba(20, 6, 20, 0.6);
+    color: #cec6cc;
     
 }
 
