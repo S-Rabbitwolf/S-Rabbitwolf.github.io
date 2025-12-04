@@ -112,6 +112,8 @@ body {
     opacity: 0.95;
 }
 
+/*--Character page starts here, will be universal for all--*/
+
 .characterpage-header {
     margin-bottom: 1.5rem;
 
@@ -143,4 +145,12 @@ body {
     padding: 1.5rem;
     font-size: 0.95rem;
     line-height: 1.5;
+}
+
+.character-attributes {
+    padding: 1.75rem;
+    min-height: 240px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+
 }
