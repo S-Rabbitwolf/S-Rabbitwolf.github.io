@@ -21,7 +21,6 @@ body {
     z-index: 100;
     background: rgba(20, 6, 20, 0.6);
     color: #cec6cc;
-    
 }
 
 .logo {
@@ -31,6 +30,7 @@ body {
     display: flex;
     gap: 2rem;
     font-size: 0.9rem;
+    color: #cec6cc;
 }
 
 .nav-links a {
