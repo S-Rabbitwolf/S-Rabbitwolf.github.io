@@ -138,6 +138,8 @@ body {
     padding: 2rem 1rem;
     text-align: center;
     font-size: 0.9rem;
+    background: rgba(81, 27, 78, 0.6);
+    border: 3px solid rgba(6, 6, 6, 0.8);
 }
 
 .character-details {
