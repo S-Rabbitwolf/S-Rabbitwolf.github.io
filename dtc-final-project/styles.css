@@ -110,8 +110,9 @@ body {
 }
 
 .hook-text {
+    flex: 1 1 40%;
     padding: 3rem 1rem;
-    border: 1px solid rgba(12, 12, 12, 0.6);
+    border: 2px solid rgba(12, 12, 12, 0.6);
     font-size: 0.95rem; 
     line-height: 1.6;
 }
