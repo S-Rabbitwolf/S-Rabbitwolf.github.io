@@ -64,10 +64,16 @@ body {
 }
 
 .hook-row {
-    display: block;
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.6);
+    padding: 2rem 0;
 }
 
+/*-- TIL that just putting in 'flex' lets you just shorthand flex-grow, flex-shrink, and flex-basic --*/
+
 .hook-image {
+    flex: 0 0 40%;
     padding: 3rem 1rem;
     align-items: left;
     background: rgba(12, 12, 12, 0.2);
@@ -76,7 +82,9 @@ body {
 
 .hook-text {
     padding: 1.5rem 0.5rem;
-    border: 1px solid rgba(12, 12, 12, 0.6)
+    border: 1px solid rgba(12, 12, 12, 0.6);
+    font-size: 0.95rem; 
+    line-height: 1.6;
 }
 
 .hook-text p {
