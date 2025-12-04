@@ -70,6 +70,10 @@ body {
     padding: 2rem 0;
 }
 
+.hook-row:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
 /*-- TIL that just putting in 'flex' lets you just shorthand flex-grow, flex-shrink, and flex-basic --*/
 
 .hook-image {
