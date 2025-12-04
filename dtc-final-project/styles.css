@@ -11,7 +11,7 @@ body {
 .page-wrap {
     max-width: 1400px;
     margin: 0 auto;
-    background: #5b4a5f;
+    background: rgba(128, 41, 123, 0.6);
     min-height: 100vh;
 }
 
