@@ -19,7 +19,7 @@ body {
     top: 0;
     z-index: 100;
     background: rgba(151, 72, 147, 0.6)
-    border-box: 1px solid rgba(151, 72, 147, 0.6);
+    
 }
 
 .logo {
