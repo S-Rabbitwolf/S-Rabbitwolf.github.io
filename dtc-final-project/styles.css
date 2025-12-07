@@ -45,6 +45,9 @@ body {
     border: 2px solid rgba(231, 118, 226, 0.8);
 }
 
+p {
+    white-space: pre-line;
+}
 .logo {
 }
 
