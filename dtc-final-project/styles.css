@@ -69,6 +69,34 @@ p {
     text-decoration: underline;
 }
 
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(20, 6, 20, 0.95);
+    border: 2px solid rgba(231, 118, 226, 0.8);
+    padding: 0.5rem 0;
+    list-style: none;
+    margin: 0;
+    min-width: 180px;
+}
+
+.submenu li a {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.75rem;
+    color: #cec6cc;
+    white-space: nowrap;
+}
+
+.submenu li a:hover {
+    background: rgba(231, 118, 226, 0.25);
+}
+
+.init-submenu:hover > .submenu {
+    display: block;
+}
+
 .content-column {
     padding: 2rem 2.5rem 3rem;
 }
