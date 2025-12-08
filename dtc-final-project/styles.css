@@ -60,6 +60,10 @@ p {
     margin: 0 auto;
 }
 
+.nav-links > li {
+    position: relative;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #cec6cc;
@@ -75,7 +79,7 @@ p {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    
+
     background: rgba(20, 6, 20, 0.95);
     border: 2px solid rgba(231, 118, 226, 0.8);
     padding: 0.5rem 0;
