@@ -279,11 +279,26 @@ p {
 
 .meterfill {
     height: 100%;
-    transition: width 1s ease, background 1s ease;
-    background: linear-gradient(
-        90deg,
-        rgba(155, 0, 0, 0.9) 0%,
-        rgba(155, 200, 0, 0.9) 50%,
-        rgba(155, 200, 255, 0.9) 100%
-    );
+    transition: width 1s ease;
+}
+
+/* Thank god for Stack Overflow teaching me about selector hacks */
+
+.meterfill[style*="width: 0"],
+.meterfill[style*="width: 1"],
+.meterfill[style*="width: 2"],
+.meterfill[style*="width: 3"], {
+    background: rgba(155, 0, 0, 0.9);
+}
+
+.meterfill[style*="width: 4"],
+.meterfill[style*="width: 5"],
+.meterfill[style*="width: 6"] {
+    background: rgba(155, 200, 0, 0.9);
+}
+
+.meterfill[style*="width: 7"],
+.meterfill[style*="width: 8"],
+.meterfill[style*="width: 9"] {
+    background: rgba(155, 200, 255, 0.9);
 }
