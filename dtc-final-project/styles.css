@@ -281,7 +281,7 @@ p {
     height: 100%;
     transition: width 1s ease, background 1s ease;
     background: linear-gradient(
-        90deg;
+        90deg,
         rgba(155, 0, 0, 0.9) 0%,
         rgba(155, 200, 0, 0.9) 50%,
         rgba(155, 200, 255, 0.9) 100%
