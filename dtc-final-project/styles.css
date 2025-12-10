@@ -186,7 +186,7 @@ p {
 
 .character-image {
     max-width: 900px;
-    max-height: 1200px;
+    height: 900px;
     overflow: hidden;
     flex: 1 1 45%;
     min-height: 200px;
