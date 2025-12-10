@@ -185,6 +185,7 @@ p {
 }
 
 .character-image {
+    position: relative;
     max-width: 900px;
     height: 1000px;
     overflow: hidden;
