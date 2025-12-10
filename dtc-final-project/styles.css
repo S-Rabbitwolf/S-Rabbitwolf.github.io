@@ -299,6 +299,7 @@ p {
 
 .meterfill[style*="width: 7"],
 .meterfill[style*="width: 8"],
-.meterfill[style*="width: 9"] {
+.meterfill[style*="width: 9"],
+.meterfill[style*="width: 100"] {
     background: rgba(155, 200, 255, 0.9);
 }
