@@ -326,6 +326,8 @@ p {
 
 .slidetext {
     position: absolute;
+    top: 8px;
+    left: 12px;
     font-size: 0.85rem;
     color: #cec6cc;
     padding: 0.25rem 0.5rem;
