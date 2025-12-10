@@ -303,3 +303,57 @@ p {
 .meterfill[style*="width: 100"] {
     background: rgba(155, 200, 255, 0.9);
 }
+
+
+/* For the gallery JS */
+
+.slideshow {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: none;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.slidetext {
+    position: absolute;
+    font-size: 0.85rem;
+    color: #cec6cc;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+}
+
+/* For the arrows */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(0,0,0,0.4);
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background: rgba(0,0,0,0.7);
+}
