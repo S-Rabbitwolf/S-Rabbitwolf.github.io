@@ -226,6 +226,13 @@ p {
 
 }
 
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #cec6ce;
+    text-align: center;
+}
+
 .leftfloat {
     float: left;
     margin: 0 1.5rem 1rem 0;
