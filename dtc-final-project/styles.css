@@ -180,6 +180,7 @@ p {
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
+    align-items: flex-start;
 
 }
 
