@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
+
+</head>
+
+<body>
+<div class="page-wrap">
+    <!--Any and all text on any of these indexes are going to be placeholders. We're just doing initial setup.-->
+    <header class="navtop">
+        
+            <nav>
+                <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li class="init-submenu">
+                <a href="index2.html">Characters</a>
+                <ul class="submenu">
+                    <li><a href="index2.html">Saikyo Akane</a></li>
+                    <li><a href="index2b.html">Setra Albastre</a></li>
+                    <li><a href="index2c.html">Boyd Traverse</a></li>
+                    <li><a href="index2d.html">Kei Azusa</a></li>
+                    <li><a href="index2e.html">Pierce</a></li>
+                </ul>
+                </li>
+
+                <li><a href="index3.html">Setting</a></li>
+                <li><a href="index4.html">About The Author</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="content-column">
+        <!--Banner/Hero Image-->
+        <header class="banner">
+            <div class="tracking-banner">
+            <img src=redsproutedmemories.png>
+            <!--Looping banner duplicate-->
+            <img src="redsproutedmemories.png" aria-hidden="true">
+            </div>
+        </header>
+
+        <!--Each of the 3 segments needs to be separated by a visible row/hook/line which disperses their content as evenly as possible across the page.-->
+
+        <!--Going to try to keep it at 5 sentences maximum per description-->
+
+        <!--Characters-->
+        <section class="character-select-grid">
+
+
+            <a href="index2.html" class="char-card">
+                <img src="template1.png" alt="Character 1">
+            </a>
+
+            <a href="index2b.html" class="char-card">
+                <img src="template2.png" alt="Character 2">
+            </a>
+
+            <a href="index2c.html" class="char-card">
+                <img src="template3.png" alt="Character 3">
+            </a>
+
+            <a href="index2d.html" class="char-card">
+                <img src="template4.png" alt="Character 4">
+            </a>
+
+        </section>
+</body>
+</main>
+
+</html>
