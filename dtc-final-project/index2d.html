@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
+
+</head>
+<body class="page2">
+<div class="page-wrap">
+    <!--Any and all text on any of these indexes are going to be placeholders. We're just doing initial setup.-->
+    <header class="navtop">
+        <div class="logo">Logo</div>
+            <nav>
+                <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li class="init-submenu">
+                <a href="index2.html">Characters</a>
+                <ul class="submenu">
+                    <li><a href="index2.html">Saikyo Akane</a></li>
+                    <li><a href="index2b.html">Setra Albastre</a></li>
+                    <li><a href="index2c.html">Boyd Traverse</a></li>
+                    <li><a href="index2d.html">Kei Azusa</a></li>
+                    <li><a href="index2e.html">Pierce</a></li>
+                </ul>
+                </li>
+
+                <li><a href="index3.html">Setting</a></li>
+                <li><a href="index4.html">About The Author</a></li>
+                </ul>
+            </nav>
+    </header>
+
+<!--Initial setup for the Character pages. Copy/Paste this setup across each character page.-->
+
+    <main class="content-column">
+        <section class="characterpage-header">
+            <h1 class="character-name">Setra Albastre</h1>
+        </section>
+
+         <section class="character-display">
+                <!--This is for the column which will have the image (note to self: get dimensions properly later)-->
+                <div class="character-image">
+
+                    <div class="slideshow">
+
+
+                        <div class="slide">
+                            <div class="slidetext">1 / 3</div>
+                            <img src="setra2a.png"
+                                alt="An example image to test the boundaries of the image displays.">
+                                <figcaption>(Art by <a href="https://x.com/MEN_cho7">MEN_cho7</a>.)</figcaption>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slidetext">2 / 3</div>
+                            <img src="setra2b.png" alt="">
+                            <caption>(Art by <a href="https://bsky.app/profile/moyura.bsky.social">Moyura</a>.)</caption>
+                            <figcaption>On their home plane of Apotheosis, Setra lives alone in an abandoned manse in the countryside. Despite their attempts to isolate themselves, they have a regal air about them that is unshakeable.</figcaption>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slidetext">3 / 3</div>
+                            <img src="setra2d.png" alt="">
+                            <caption>(Art by <a href="https://x.com/MonsterOfSukeP">SukeP</a>.)</caption>
+                            <figcaption>Setra has an absurd amount of physical strength owing to their artificial construction. They are able to wield large weapons with middling effort.
+                            </figcaption>
+                        </div>
+
+                        <!-- Controls for the image gallery -->
+                        <button class="prev" type="button" onclick="changeSlide(-1)">&#10094;</a>
+                        <button class="next" type="button" onclick="changeSlide(1)">&#10095;</a>
+
+                    </div>
+
+
+                    <div class="caption">
+                        
+                    </div>
+
+                </div>
+
+            <!--Character details portion-->
+            <div class="character-details">
+                <h2>Finding Oneself Without A Self</h2>
+                <p>Setra Albastra is an enigma even among their home plane of Apotheosis. An artificial creation of the Eidleik's steward, Kei, their body is composed of a combination of both physical and ethereal matter.</p>
+
+                    <p>Due to this unique composition granted to them by their creation, they have the ability to traverse the Eidleik's roots without damaging themselves in the process. This is by design; Setra's primary purpose is to track and summarily dispose of souls that are close to severing their connection to the roots.</p>
+
+                    <p>As with most artificial bodies, Setra took quite a while to develop a personality outside of their directives. Over the years, they have come to develop a blunt, but sincere outlook on existence.</p>
+
+                    <p>Their true purpose is to foster the resuscitation of the soul which lays dormant in their body. As a result, much of their personality and appearance is a direct reflection of that individual.</p>
+
+                    <p>Setra has been dispatched to Telna to perform a familiar task; weed out a certain soul which has accumulated too much power to ignore, and reconnect the world to its roots.</p>
+
+                    <p>However, unlike previous forays into the roots, a strange, familiar sensation fills Setra with an uncomfortable sense of urgency. Telna, being a world entirely disconnected from the Eidleik, should have nothing to elicit such a response.</p>
+
+                    <p>Due to their nature, that familiarity would develop into a deeper curiosity, which would envelop Setra's attention. For the first time in their existence, it was not their assignment which drove them forward.</p>
+
+                    <p>This curiosity would entangle this artificial being in ways that not even the gods would predict.</p>
+                    
+                
+            </div>
+
+            <!--For attributes on the bottom-->
+            <section class="character-attributes">
+            <h2>Attributes</h2>
+            <div class=attribute>
+                    <span class="attribute-name">Strength</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Frail</span>
+                        <span class="right-label">Herculean</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 80%"></div>
+                </div>
+                <div class=attribute>
+                    <span class="attribute-name">Intelligence</span>
+
+                      <div class="meter-labels">
+                        <span class="left-label">Dense</span>
+                        <span class="right-label">Prodigy</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 70%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Dexterity</span>
+
+                     <div class="meter-labels">
+                        <span class="left-label">Klutz</span>
+                        <span class="right-label">Adroit</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 60%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Adaptability</span>
+
+                     <div class="meter-labels">
+                        <span class="left-label">Stubborn</span>
+                        <span class="right-label">Malleable</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 20%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Alignment - Personal</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Evil</span>
+                        <span class="center-label">Neutral</span>
+                        <span class="right-label">Good</span>
+                    </div>
+
+                <div class="meter">
+
+                    
+                    <div class="meterfill" style="width: 50%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Alignment - Societal</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Chaotic</span>
+                        <span class="center-label">Neutral</span>
+                        <span class="right-label">Lawful</span>
+                    </div>
+
+                <div class="meter">
+
+
+                    <div class="meterfill" style="width: 100%"></div>
+                </div>
+            </section>
+        </section>
+    </main>

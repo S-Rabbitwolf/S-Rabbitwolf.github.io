@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
+
+</head>
+<body class="page2">
+<div class="page-wrap">
+    <!--Any and all text on any of these indexes are going to be placeholders. We're just doing initial setup.-->
+    <header class="navtop">
+        <div class="logo">Logo</div>
+            <nav>
+                <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li class="init-submenu">
+                <a href="index2.html">Characters</a>
+                <ul class="submenu">
+                    <li><a href="index2.html">Saikyo Akane</a></li>
+                    <li><a href="index2b.html">Setra Albastre</a></li>
+                    <li><a href="index2c.html">Boyd Traverse</a></li>
+                    <li><a href="index2d.html">Kei Azusa</a></li>
+                    <li><a href="index2e.html">Pierce</a></li>
+                </ul>
+                </li>
+
+                <li><a href="index3.html">Setting</a></li>
+                <li><a href="index4.html">About The Author</a></li>
+                </ul>
+            </nav>
+    </header>
+
+<!--Initial setup for the Character pages. Copy/Paste this setup across each character page.-->
+
+    <main class="content-column">
+        <section class="characterpage-header">
+            <h1 class="character-name">Boyd Traverse</h1>
+        </section>
+
+         <section class="character-display">
+                <!--This is for the column which will have the image (note to self: get dimensions properly later)-->
+                <div class="character-image">
+
+                    <div class="slideshow">
+
+
+                        <div class="slide">
+                            <div class="slidetext">1 / 2</div>
+                            <img src="boyd1.png"
+                                alt="An example image to test the boundaries of the image displays.">
+                                <figcaption>(Art by <a href="https://x.com/sumiaou">Sketch</a>.)</figcaption>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slidetext">2 / 2</div>
+                            <img src="Boyd2.png" alt="">
+                            <caption>(Art by <a href="https://x.com/zuekrz">Zue</a>.)</caption>
+                            <figcaption>Boyd enjoys wearing impractical clothing just because he thinks it makes him look cool.</figcaption>
+                        </div>
+
+                        
+
+                        <!-- Controls for the image gallery -->
+                        <button class="prev" type="button" onclick="changeSlide(-1)">&#10094;</a>
+                        <button class="next" type="button" onclick="changeSlide(1)">&#10095;</a>
+
+                    </div>
+
+
+                    <div class="caption">
+                        
+                    </div>
+
+                </div>
+
+            <!--Character details portion-->
+            <div class="character-details">
+                <h2>Allergic to Failure</h2>
+                <p>Boyd Traverse is what many would consider to be an edge case in success. Many take shortcuts, or attempt to find ways to circumvent the way the world works through a variety of means.
+
+                    Boyd, quite simply, doesn't care. Or rather, he couldn't really be made to care. He has an oxymoronic lifestyle born of an uncharacteristically high amount of luck, with charisma ill-fitting of someone with his outlook on life.
+
+                    Born in a poor fishing town in Prime, the largest nation in the world of Apotheosis, Boyd exhuded a rather uncanny approach to many of the tasks given to him by his father. No matter how dangerous the situation, or unpleasant the person, Boyd would end up coming out on top somehow.
+
+                    Some say that he's got the luck of demons on his side, while others think he's just a weirdly uncanny guy with a lot of potential. If anything, for him, effort was hard to come by, and desire even harder.
+
+                    Over the years, everything good in his life fell into his lap. After his father passed away (the 'Best damn thing the old man ever did,' by Boyd's own admission,) he decided to take up the traveler's torch and wander the world aimlessly.
+
+                    Boyd is characterized by his deep disdain for his luck. Regardless of the amount of effort he puts forward in any given endeavor, he always succeeds. As a result, he feels most of his accomplishments are entirely unearned and largely pointless.
+
+                    Were it not for the people in his life that he tries to hold onto despite this, his path would be considerably darker.
+                </p>
+                    
+                
+            </div>
+
+            <!--For attributes on the bottom-->
+            <section class="character-attributes">
+            <h2>Attributes</h2>
+            <div class=attribute>
+                    <span class="attribute-name">Strength</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Frail</span>
+                        <span class="right-label">Herculean</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 30%"></div>
+                </div>
+                <div class=attribute>
+                    <span class="attribute-name">Intelligence</span>
+
+                      <div class="meter-labels">
+                        <span class="left-label">Dense</span>
+                        <span class="right-label">Prodigy</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 50%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Dexterity</span>
+
+                     <div class="meter-labels">
+                        <span class="left-label">Klutz</span>
+                        <span class="right-label">Adroit</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 90%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Adaptability</span>
+
+                     <div class="meter-labels">
+                        <span class="left-label">Stubborn</span>
+                        <span class="right-label">Malleable</span>
+                    </div>
+
+                <div class="meter">
+                    <div class="meterfill" style="width: 80%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Alignment - Personal</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Evil</span>
+                        <span class="center-label">Neutral</span>
+                        <span class="right-label">Good</span>
+                    </div>
+
+                <div class="meter">
+
+                    
+                    <div class="meterfill" style="width: 40%"></div>
+                </div>
+
+                <div class=attribute>
+                    <span class="attribute-name">Alignment - Societal</span>
+
+                    <div class="meter-labels">
+                        <span class="left-label">Chaotic</span>
+                        <span class="center-label">Neutral</span>
+                        <span class="right-label">Lawful</span>
+                    </div>
+
+                <div class="meter">
+
+
+                    <div class="meterfill" style="width: 10%"></div>
+                </div>
+            </section>
+        </section>
+    </main>
