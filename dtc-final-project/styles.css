@@ -208,6 +208,24 @@ p {
     opacity: 0.95;
 }
 
+.love-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.love-image {
+    width: 45%;
+    padding: 1.5rem;
+    background: rgba(12, 12, 12, 0.4);
+    
+}
+
+.love-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 /*--Character page starts here, will be universal for all--*/
 
 .characterpage-header {
