@@ -234,6 +234,24 @@ p {
     display: block;
 }
 
+.love-text {
+    flex: 0 0 40%;
+    padding: 2rem;
+    border: 2px solid rgba(12, 12, 12, 0.6);
+    font-size: 0.95rem; 
+    line-height: 1.6;
+    background: rgba(12, 12, 12, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.love-text p {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
 /*--Character page starts here, will be universal for all--*/
 
 .characterpage-header {
