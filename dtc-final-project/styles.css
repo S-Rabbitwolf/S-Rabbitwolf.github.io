@@ -213,6 +213,10 @@ p {
     justify-content: flex-start;
 }
 
+.love-row:nth-child(even) {
+    justify-content: flex-end;
+}
+
 .love-image {
     width: 45%;
     padding: 1.5rem;
