@@ -208,48 +208,21 @@ p {
     opacity: 0.95;
 }
 
-.love-row {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.love-row:nth-child(even) {
-    justify-content: flex-end;
-}
-
-.love-image {
-    width: 45%;
-    height: 350px;
-    padding: 1.5rem;
-    background: rgba(12, 12, 12, 0.4);
-    overflow: hidden;
-    box-sizing: border-box;
-    
-}
-
-.love-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-.love-text {
+.hook-image2 {
     flex: 0 0 40%;
     padding: 2rem;
-    border: 2px solid rgba(12, 12, 12, 0.6);
-    font-size: 0.95rem; 
-    line-height: 1.6;
-    background: rgba(12, 12, 12, 0.6);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    background: rgba(12, 12, 12, 0.2);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    color:aliceblue;
+    overflow: hidden;
 }
 
-.love-text p {
-    margin-top: 0;
-    font-size: 1.2rem;
+.hook-image2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /*--Character page starts here, will be universal for all--*/
