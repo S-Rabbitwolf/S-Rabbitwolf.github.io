@@ -153,14 +153,14 @@ p {
     transform: scale(1.02);
     opacity: 0.8;
     transition:
-    filter 0.8s ease,
-    transform 0.8s ease,
-    opacity 1.2s ease,
+    filter 0.8s ease-out,
+    transform 0.8s ease-out,
+    opacity 1.2s ease-out,
 }
 
 .hook-image:hover img {
     filter: blur(0);
-    transform: sclae(1.06);
+    transform: scale(1.06);
     opacity: 1;
 }
 
