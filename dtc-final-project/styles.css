@@ -141,6 +141,28 @@ p {
     background: rgba(12, 12, 12, 0.2);
     transition: transform 0.2s ease, opacity 0.2s ease;
     color:aliceblue;
+    overflow: hidden;
+}
+
+.hook-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    filter: blur(3px);
+    transform: scale(1.02);
+    opacity: 0.8;
+    transition:
+    filter 0.3s ease,
+    transform 0.3s ease,
+    opacity 0.3s ease,
+}
+
+.hook-image:hover img {
+    filter: blur(0);
+    transform: sclae(1.06);
+    opacity: 1;
 }
 
 .hook-text {
