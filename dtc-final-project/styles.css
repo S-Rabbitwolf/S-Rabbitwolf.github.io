@@ -107,11 +107,14 @@ p {
 }
 
 #titlelogo {
-    display: flex;
-    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
 }
 
 .narrative {
+    display: block;
     text-align: center;
     justify-content: center;
     background-color: rgba(128, 41, 123, 0.8);
