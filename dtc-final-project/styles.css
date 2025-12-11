@@ -155,7 +155,7 @@ p {
     transition:
     filter 0.8s ease-out,
     transform 0.8s ease-out,
-    opacity 1.2s ease-out,
+    opacity 1.2s ease-out;
 }
 
 .hook-image:hover img {
