@@ -7,12 +7,87 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>I Can't Wait For Coding To Make Me Want To Tear My Hair Out: Beginner Edition</title>
+	<title>I Can't Wait For Coding To Make Me Want To Tear My Hair Out: Beginner Edition COMPLETED!</title>
 
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-		/* in-file CSS here */
+		   body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #0b0610;
+            color: #f3e9f8;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Central wrapper */
+        .hub-wrapper {
+            max-width: 900px;
+            width: 100%;
+            padding: 2.5rem 1.5rem;
+            background: rgba(24, 12, 34, 0.9);
+            border: 2px solid rgba(231, 118, 226, 0.7);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .hub-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hub-title h1 {
+            margin: 0 0 0.5rem;
+            font-size: 2rem;
+        }
+
+        .hub-title p {
+            margin: 0;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        /* Project list */
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            padding: 1rem 1.25rem;
+            background: rgba(10, 6, 16, 0.9);
+            border-radius: 8px;
+            border: 1px solid rgba(231, 118, 226, 0.4);
+        }
+
+        .project-card a {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #f8d8ff;
+            text-decoration: none;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+        .project-card p {
+            margin: 0.35rem 0 0;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .hub-wrapper {
+                padding: 2rem 1rem;
+            }
+        }
 	</style>
 
 	<!-- external and internal JavaScript -->
@@ -32,27 +107,51 @@
 
 	<p><a href="https://github.com/S-Rabbitwolf/S-Rabbitwolf.github.io/tree/main">Here's my GitHub repo!</a></p>
 
-	<hr>
+	 <main class="hub-wrapper">
+        <header class="hub-title">
+            <h1>Project Hub</h1>
+            <p>These are all of the projects I've worked on this year!</p>
+        </header>
+
+        <section class="project-list">
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/favorite-recipe/index.html">Favorite Recipe</a>
+                <p>The first website I ever made with no adjustments that displays a favorite recipe.</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/anni-albers/index2.html">Anni Albers Examination</a>
+                <p>A brief study of an Anni Albers quote with proper HTML linking!</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/rhododendron/index.html">Rhododendron Website</a>
+                <p>A grid-oriented webpage focused on the Pacific Rhododendron and where to find more information about them.</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/recipe-site/index.html">Recipe Site</a>
+                <p>A multi-page recipe website expanding on the first recipe project!</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/dark-flower/index.html">Dark Flower</a>
+                <p>A dark-mode implementation for the Rhododendron website!</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/long-story/">Long Story</a>
+                <p>A long-scrolling webpage recounting the Hindenburg disaster! Also my first foray into finding out how the heck animation in CSS works!</p>
+            </article>
+
+            <article class="project-card">
+                <a href="https://s-rabbitwolf.github.io/dtc-final-project/index.html">Final Project</a>
+                <p>A full multi-link website designed by and for me. This one's for the marbles!</p>
+            </article>
+        </section>
+    </main>
+
 	
-
-	<h2>Activities</h2>
-	<ul>
-		<li><a href="code-logs/log1.html"> Code Log 1.</a></li>
-	</ul>
-
-
-	<hr>
-
-	<h2>Tiny Projects!</h2>
-	<ul>
-		<li><a href="/favorite-recipe/index.html">Wowie! It's a tocino recipe! Can you believe it!? We're coding!</a></li>
-	</ul>
-
-	<hr>
-	
-	<h2>Major Project</h2>
-	<p>This is the Big One™. It's gonna take a while, so keep your eye on the prize!</p>
-
 </body>
 
 </html>
