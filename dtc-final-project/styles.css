@@ -107,7 +107,7 @@ p {
     padding: 2rem 2.5rem 3rem;
 }
 
-
+/* Banner-scroll implementation thanks to scouring the Stack Overflow archives */
 
 .banner {
     height: 260px;
@@ -115,11 +115,16 @@ p {
     overflow: hidden;
 }
 
+.tracking-banner {
+    display: flex;
+    width: max-content;
+    animation: banner-scroll 36s linear infinite;
+}
+
 .banner img {
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    flex-shrink: 0;
     filter: blur(2px) brightness(0.9) contrast(0.9);
     transform: scale(1.03);
     mask-image: linear-gradient(
@@ -127,13 +132,19 @@ p {
         black 70%,
         transparent 100%
     );
+    
 }
 
-#banner-image {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+@keyframes banner-scroll {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
+
+
 
 .hook-row {
     display: flex;
