@@ -118,7 +118,7 @@ p {
 .tracking-banner {
     display: flex;
     width: max-content;
-    animation: banner-scroll 75s linear infinite;
+    animation: banner-scroll 110s linear infinite;
 }
 
 .banner img {
@@ -127,11 +127,6 @@ p {
     flex-shrink: 0;
     filter: blur(2px) brightness(0.9) contrast(0.9);
     transform: scale(1.03);
-    mask-image: linear-gradient(
-        to bottom,
-        black 70%,
-        transparent 100%
-    );
     
 }
 
