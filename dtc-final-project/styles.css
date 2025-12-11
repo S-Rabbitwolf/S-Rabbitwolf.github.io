@@ -224,11 +224,10 @@ p {
 
 .character-select-grid {
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, auto);
     gap: 2rem;
-    max-width: 900px;
     margin: 3rem auto;
-    padding: 1rem;
+    justify-content: center;
 }
 
 .char-card {
