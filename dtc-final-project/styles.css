@@ -118,7 +118,7 @@ p {
 .tracking-banner {
     display: flex;
     width: max-content;
-    animation: banner-scroll 36s linear infinite;
+    animation: banner-scroll 75s linear infinite;
 }
 
 .banner img {
