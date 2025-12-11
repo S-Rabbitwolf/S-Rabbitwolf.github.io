@@ -111,6 +111,7 @@ p {
 
 .banner {
     height: 260px;
+    position: relative;
     overflow: hidden;
 }
 
@@ -119,13 +120,20 @@ p {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: blur(2px) brightness(0.9) contrast(0.8);
+    filter: blur(2px) brightness(0.9) contrast(0.9);
     transform: scale(1.03);
     mask-image: linear-gradient(
         to bottom,
         black 70%,
         transparent 100%
     );
+}
+
+.logo {
+    position: absolute;
+    width: auto;
+    z-index: 1;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
 }
 
 #banner-image {
