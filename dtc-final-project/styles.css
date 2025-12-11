@@ -110,9 +110,22 @@ p {
 
 
 .banner {
-    margin-bottom: 2rem;
-    padding: 4rem 1rem;
-    text-align: Center;
+    height: 260px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(3px) brightness(0.9);
+    transform: scale(1.03);
+    mask-image: linear-gradient(
+        to bottom,
+        black 80%,
+        transparent 100%
+    );
 }
 
 #banner-image {
