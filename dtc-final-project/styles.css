@@ -129,13 +129,6 @@ p {
     );
 }
 
-.logo {
-    position: absolute;
-    width: auto;
-    z-index: 1;
-    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
-}
-
 #banner-image {
     font-size: 1.7rem;
     font-weight: 500;
