@@ -1,0 +1,114 @@
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+
+    <!-- external and internal CSS -->
+   <!--I only just now remembered you can just shoo away the style sheet if you just want to use main body css. Handy at the end!-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            overflow: hidden; /* hides credits as they scroll offscreen */
+        }
+
+        .credits-wrapper {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .credits {
+            text-align: center;
+            font-size: 1.3rem;
+            line-height: 2;
+            animation: scrollCredits 55s linear forwards;
+        }
+
+        .credits h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .credits p {
+            margin: 0.2rem 0;
+        }
+
+        .section-label {
+            margin-top: 2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+
+        .final-line {
+            margin-top: 3rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+    </style>
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
+
+</head>
+<body>
+    <div class="credits-wrapper">
+        <div class="credits">
+            <h1>Special Thanks</h1>
+
+            <p>Sketch - For fostering my love to create.</p>
+            <p>TK - For being my friendly rival.</p>
+            <p>Strider - For being a dumb dog.</p>
+            <p>Juushichi - For helping me become a better player and person.</p>
+            <p>Koglin - Wherever you are, you're my best friend.</p>
+            <p>Fevrier - For being Swedish. (And helping me out with coding questions.)</p>
+            <p>DrunkSuika - For turning me into the best UNI player I could be.</p>
+            <p>Foxof42 - For carrying on the good fight in UNI even with me gone.</p>
+            <p>Pinku - One of my best training partners.</p>
+            <p>Aziel - I'll see you up there.</p>
+            <p>Mom</p>
+            <p>Gary - Love you, dad.</p>
+            <p>Daisuke - Keep on Rockin'.</p>
+            <p>Atlas - My best friend, always.</p>
+            <p>The Entire Under Night Community</p>
+            <p>Kamone Serizawa</p>
+            <p>nrj275 - For listening to me yap about my world. I hope we can meet someday.</p>
+            <p>Mark Rosewater - God, I love Magic the Gathering.</p>
+            <p>Pixel</p>
+            <p>Ari Weintraub - Rest easy, Floe. You made us all smile.</p>
+            <p>Zulu's Games</p>
+            <p>Aris</p>
+            <p>Fatty</p>
+
+            <p class="section-label">My friends at</p>
+            <p>Valve Software (Thanks Uncle Robin!)</p>
+            <p>Arc System Works</p>
+            <p>Capcom West</p>
+
+            <p class="final-line">And you.</p>
+        </div>
+    </div>
+
+
+</body>
