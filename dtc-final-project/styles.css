@@ -153,9 +153,9 @@ p {
     transform: scale(1.02);
     opacity: 0.8;
     transition:
-    filter 0.8s ease-out,
-    transform 0.8s ease-out,
-    opacity 1.2s ease-out;
+    filter 0.8s ease,
+    transform 0.8s ease,
+    opacity 1.2s ease;
 }
 
 .hook-image:hover img {
